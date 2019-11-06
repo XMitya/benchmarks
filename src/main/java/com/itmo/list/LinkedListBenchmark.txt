@@ -1,0 +1,9 @@
+Benchmark                                            Mode  Cnt     Score      Error  Units
+LinkedListBenchmark.append1MArrayList               thrpt    3    22.094 ±   62.961  ops/s
+LinkedListBenchmark.append1MLinkedList              thrpt    3    10.270 ±   24.537  ops/s
+LinkedListBenchmark.insert1KInArrayListMiddle       thrpt    3     0.871 ±    2.303  ops/s
+LinkedListBenchmark.insert1KInLinkedListMiddle      thrpt    3     0.516 ±    0.066  ops/s
+LinkedListBenchmark.iterateOver1KLinkedListByIndex  thrpt    3  2110.103 ± 9179.708  ops/s
+LinkedListBenchmark.iterateOver1MArrayList          thrpt    3   168.442 ±  510.994  ops/s
+LinkedListBenchmark.iterateOver1MArrayListByIndex   thrpt    3   269.957 ±  237.905  ops/s
+LinkedListBenchmark.iterateOver1MLinkedList         thrpt    3   171.197 ±   40.205  ops/s
